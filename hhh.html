@@ -1,0 +1,88 @@
+<html>
+<head>
+<title> TELEPHONE DIRECTORY</title>
+</head>
+<style>
+*{
+    margin:0px;
+	padding:0px;
+	}
+
+    
+body{
+    background-color:#F7F9F9;
+	margin-left:450px;
+	margin-top:20px
+	}
+#container ul{
+    list-style:none;
+	}
+#container ul li{
+     background-color: #8E44AD;
+	   width: 200px;
+	   border: 1px solid white;
+	   height:50px;
+	   border-radius:26px;
+	   line-height:50px;
+	   text-align:center;
+	   float:left;
+	   color:white;
+	   font-size:19px;
+	   }
+#container ul li:hover{
+    background-color:#85C1E9;
+	}
+#container ul ul{
+    display:none;
+	}
+#container ul li:hover > ul{
+    display : block;
+	}
+	   
+	</style>
+<body>
+<div id="container">
+<ul>
+    <li>INSERTION
+	   <ul>
+            <li><a href = "inserts.php">STUDENT</a> </li>
+			<li>PARENT </li>
+			<li><a href = "insertt.php">TEACHING STAFF</a></li>
+			<li>NONTEACHING </li>
+			<li><a href = "insertd.php">DEPARTMENT </a></li>
+		</ul>	
+    </li>
+    <li>delete
+	    <ul>
+            <li>STUDENT DETAILS</li>
+			<li>PARENT DETAILS</li>
+			<li>TEACHING STAFF DETAILS</li>
+			<li>NONTEACHING DETAILS</li>
+			<li>DEPARTMENT DETAILS</li>
+		</ul>		
+	</li>
+	<li>update</li>
+</ul>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
